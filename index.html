@@ -35,20 +35,38 @@
 
         <div class="article">
             <article>
-                <h1>Welcome to kyoanimachine</h1>
-                <p>This website is under Kyoanimachine Group's administration, an animation club which consists of kyoani fans with specific skills.</p>
+                <h1>Welcome to KyoaniMachine</h1>
+                <p>This website is under <abbr title=" KyoaniMachine Group">KMA</abbr>'s administration, an animation club which consists of kyoani fans with specific skills.</p>
+               
                 <figure><!--最新动态，如果能做成动态页面就好了-->
                     <figcaption>最新动态</figcaption> 
                     <ul>
                         <li>
                             <h3>新年参拜</h3>
                             <img src="image/new-year-visit.png" width="192" height="108"/>
-                            <p>千反田美如画，折木怂似狗</p>
+                            <p>千反田美如画，折木怂似狗<a href="#article-note1"><sup>注1</sup></a></p> <!--添加注释1-->
                         </li>
                         <li>
                             <h3>《蛤传》</h3>
+                            <p>
+                                读音：
+                                <ruby>      <!--添加注音，方便阅读-->
+                                    蛤<rp>(</rp><rt>há</rt><rp>)</rp>
+                                    蟆<rp>(</rp><rt>mɑ</rt><rp>)</rp>
+                                </ruby>     <!--结束注音-->
+                            </p>
                             <p>或作书，名曰：<cite lang="zh-cn">《他改变了中国》</cite></p>
-                            <blockquote lang="zh-cn">苟利国家生死以，岂因祸福避趋之</blockquote>
+                            <blockquote lang="zh-cn">苟<del>利国家生死以，岂因祸福避趋之</del>全性命于乱世，不求闻达于诸侯</blockquote>
+                        </li>
+                        <li>
+                            <h3>P站扒图小程序</h3>
+                            <pre>   <!--预格式化，可以保留代码中的额外空格和换行-->
+                                <code>
+                                    import os
+                                    import sys
+                                </code>
+                            </pre>  <!--结束预格式化-->
+                            <p>github地址：<a href="https://github.com/upbit/pixivpy">pixivpy</a></p>
                         </li>
                     </ul>
                 </figure><!--结束最新动态-->
@@ -60,23 +78,31 @@
 
     <!--注释栏，包括“注释”和“友情链接”-->
     <aside role="complementary">
-        <h1>Other Projects</h1>
-        <h3>京都动画网站汉化企划</h3>
-        <ul>
-            <li><a href="https://www.kyoani.club/violet-evergarden">紫罗兰永恒花园官网汉化</a></li>
-        </ul>
+       <div id="other-projects">
+            <h1>Other Projects</h1>
+            <h3>京都动画网站汉化企划</h3>
+            <p>改项目由<mark>樱木大佬</mark>和<mark>剩雄肝帝</mark>主导进行</p>  <!--mark荧光笔功能，起到突出重点的作用-->
+            <ul>
+                <li><a href="https://www.kyoani.club/violet-evergarden">紫罗兰永恒花园官网汉化</a></li>
+            </ul>
+        </div>
+        <div id="footnote">
+            <h1>注释</h1>
+            <p id="article-note1">注1：该图片截自《冰菓》第22话</p>
+        </div>
     </aside>
     <!--结束注释栏-->
 
     <!--页脚，包括“法律信息”和“站点信息”-->
     <footer role="contentinfo">
-        <p style="font-family:'Microsoft YaHei'; color:black;">
+        <address>如果您想加入<em>京圈搞机组</em>，请发送邮件至<a href=" mailto:tom13amy@hotmail.com">tom13amy@hotmail.com</a></address>   <!--联系站长-->
+        <p style="font-family:'Microsoft YaHei'; color:black;">     <!--法律信息-->
             <small>
                 若文章作者没有特别注明，则<em>默认采用</em>
                 <a href="http://creativecommons.org/licenses/by-nd/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" alt="知识共享许可协议" /></a>
                 <a href="http://creativecommons.org/licenses/by-nd/4.0/" rel="license"><b>4.0 国际许可协议</b></a>进行许可。
             </small>
-        </p>
+        </p>    <!--结束法律信息-->
         <p style="font-family:'Microsoft YaHei'">本站创建日期<time datetime="2017-05-01+08:00">2017年5月1日</time></p>
     </footer>
     <!--结束页脚-->
