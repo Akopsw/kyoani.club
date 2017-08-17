@@ -1,0 +1,21 @@
+/*设置不同状态链接的颜色*/
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color:forestgreen;
+}
+
+a:active{
+    color:darkred;
+}
+
+#page_footer p{
+    font-family:"Microsoft YaHei";
+    color:black;
+}
