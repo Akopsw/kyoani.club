@@ -23,12 +23,19 @@ body {
     background-position: right top;
 }
 
-
+div.main_article{
+    background-color: antiquewhite;
+    background-clip: border-box;
+}
 h1{
     font-size: 2.1875em;
 }
 
 h2{
+    font-size: 1.75em;
+}
+
+figcaption{
     font-size: 1.75em;
 }
 
@@ -40,4 +47,9 @@ p.greeting{
     font-family: KaiTi, Arial, Helvetica, sans-serif;
     font-size: 1.75em;
     font-style: italic;
+}
+
+p.author{
+    font-size: 0.8em;
+    font-weight: bold;
 }
