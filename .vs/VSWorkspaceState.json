@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\image"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\image\\mainVisualWrapBg.png",
   "PreviewInSolutionExplorer": false
 }

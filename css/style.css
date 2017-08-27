@@ -18,7 +18,7 @@ a:active{
 body {
     font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-image: url(../image/mainVisualWrapBg.png);
+    background-image: url(../image/background2.png);
     background-repeat: repeat;
     background-position: right top;
 }
@@ -34,4 +34,10 @@ h2{
 
 p{
     line-height: 0.6;
+}
+
+p.greeting{
+    font-family: KaiTi, Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    font-style: italic;
 }
