@@ -1,21 +1,37 @@
 /*设置不同状态链接的颜色*/
 a:link{
-    color:blue;
+    color: blue;
 }
 
 a:visited{
-    color:red;
+    color: red;
 }
 
 a:hover{
-    color:forestgreen;
+    color: forestgreen;
 }
 
 a:active{
-    color:darkred;
+    color: darkred;
 }
 
-#page_footer p{
-    font-family:"Microsoft YaHei";
-    color:black;
+body {
+    font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url(../image/mainVisualWrapBg.png);
+    background-repeat: repeat;
+    background-position: right top;
+}
+
+
+h1{
+    font-size: 2.1875em;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+p{
+    line-height: 0.6;
 }
