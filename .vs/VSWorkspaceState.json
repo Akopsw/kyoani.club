@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\image",
+    "\\js"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
